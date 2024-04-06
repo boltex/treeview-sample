@@ -1,4 +1,39 @@
-# Views & View Containers
+# Views & View Containers Modified to test for enablement of svg icons in view/title and view/editors command bars.
+
+To underline the bug with disabled icons appearamce, this code replaces the 'refresh' command on the ftp panel with four (4) versions of the refresh command icons, comparing enabled and disabled states of svg, and product-icon command icons appearance.
+
+```JSON
+      {
+				"command": "ftpExplorer.refresh1",
+				"title": "Refresh",
+				"enablement": "!falsy",
+				"icon": {
+					"light": "resources/light/refresh.svg",
+					"dark": "resources/dark/refresh.svg"
+				}
+			},
+			{
+				"command": "ftpExplorer.refreshDisabled1",
+				"enablement": "falsy",
+				"title": "Refresh Disabled1",
+				"icon": {
+					"light": "resources/light/refresh.svg",
+					"dark": "resources/dark/refresh.svg"
+				}
+			},
+			{
+				"command": "ftpExplorer.refresh2",
+				"title": "Refresh",
+				"enablement": "!falsy",
+				"icon": "$(refresh)"
+			},
+			{
+				"command": "ftpExplorer.refreshDisabled2",
+				"enablement": "falsy",
+				"title": "Refresh Disabled2",
+				"icon": "$(refresh)"
+			},
+```
 
 This sample demonstrates how to implement and contribute a tree view in VS Code. This includes:
 
