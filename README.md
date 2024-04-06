@@ -3,7 +3,7 @@
 To underline the bug with disabled icons appearamce, this code replaces the 'refresh' command on the ftp panel with four (4) versions of the refresh command icons, comparing enabled and disabled states of svg, and product-icon command icons appearance.
 
 ```JSON
-      {
+			{
 				"command": "ftpExplorer.refresh1",
 				"title": "Refresh",
 				"enablement": "!falsy",
