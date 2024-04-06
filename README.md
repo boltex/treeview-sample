@@ -1,6 +1,6 @@
 # Views & View Containers Modified to test for enablement of svg icons in view/title and view/editors command bars.
 
-To underline the bug with disabled icons appearamce, this code replaces the 'refresh' command on the ftp panel with four (4) versions of the refresh command icons, comparing enabled and disabled states of svg, and product-icon command icons appearance.
+To underline the bug with disabled icons dimmed appearance, this code replaces the 'refresh' command on the ftp panel with four (4) versions of the refresh command icons, comparing enabled and disabled states of both _svg_, and _product-icon_ command icons appearance.
 
 ```JSON
 			{
