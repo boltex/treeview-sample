@@ -35,6 +35,12 @@ To underline the bug with disabled icons dimmed appearance, this code replaces t
 			},
 ```
 
+This screenshot shows the changes on the left (adding the same refrersh icon but in a disabled state) followed with the refresh icons instead made with a 'product-icon' `$(refresh)` .
+
+![LeoEditor](/sample.png)
+
+## The rest of this readme is the original readme for this vscode extension sample
+
 This sample demonstrates how to implement and contribute a tree view in VS Code. This includes:
 
 - Contributing views and view containers.
